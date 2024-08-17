@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Task Details</title>
+</head>
+<body>
+<h1>Task Details</h1>
+<p>ID: <span th:text="${task.id}"></span></p>
+<p>Title: <span th:text="${task.title}"></span></p>
+<p>Description: <span th:text="${task.description}"></span></p>
+<p>Creation Date: <span th:text="${task.creationDate}"></span></p>
+<p>Creation Time: <span th:text="${task.creationTime}"></span></p>
+<p>Status: <span th:text="${task.status}"></span></p>
+<a href="/tasks">Back to List</a>
+</body>
+</html>
